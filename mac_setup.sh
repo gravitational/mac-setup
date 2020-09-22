@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #This script can setup and keep a mac configured according to the desired settings
-#adjust the variables and choose which functions to run in the main function
 
-#run all the functions in order
+
 main() {
 	install-xcode #dependency
 	install-brew-cask-apps  #installs cli and gui apps
@@ -71,9 +70,9 @@ install-brew-cask-apps() {
 
 		apps=(
 			#browsers
-			firefox #work use
-			google-chrome #for testing, privacy and ram use is bad
-			brave-browser #home use
+			firefox 
+			google-chrome 
+			brave-browser
 
 			#gravitational
 			sublime-text
