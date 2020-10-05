@@ -81,6 +81,7 @@ install-brew-cask-apps() {
 			1password-cli
 			slack
 			google-backup-and-sync
+			drone-cli
 
 			#dev tools
 			iterm2
