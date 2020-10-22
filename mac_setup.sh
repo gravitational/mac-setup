@@ -39,6 +39,7 @@ install-brew-cask-apps() {
 		echo "Installing homebrew apps ..."
 
 		apps=(
+			coreutils #make mac command line more like GNU Linux
 			git
 			git-extras
 			legit
