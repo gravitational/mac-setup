@@ -116,9 +116,9 @@ install-brew-cask-apps() {
 				if [ ! -e /usr/local/Caskroom/$i ] 
 				then
 					echo "installing $i"
-					brew cask install $i
+					brew install --cask $i
 				else 
-					echo "brew cask app $i already instaålled"
+					echo "brew cask app $i already installed"
 				fi
 			done
 
