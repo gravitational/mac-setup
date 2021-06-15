@@ -71,37 +71,31 @@ install-brew-cask-apps() {
 
 		apps=(
 			#browsers
-			firefox 
-			google-chrome 
-			brave-browser
+			google-chrome # work browser
+			firefox  # personl browser
+			
 
-			#gravitational
-			sublime-text
+			#Teleport Apps
 			zoomus
 			1password
-			1password-cli
 			slack
 			google-backup-and-sync
 			
-			#grav-dev
+			#dev
 			drone-cli
 			docker
+			visual-studio-code
+			postman
 			
-
-			#dev tools
-			iterm2
-
-			#security
+			#vpn
 			protonvpn
 
 			#chat
 			signal
 
 			#mac productivity
-			alfred
-			bartender
-			bettertouchtool
-			cleanmymac
+			alfred # Improved Search
+			bettertouchtool #Window Snapping and touchpad gestures, hotkey
 
 			#fun
 			spotify
